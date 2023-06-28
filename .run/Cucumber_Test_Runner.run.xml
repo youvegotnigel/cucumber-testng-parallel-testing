@@ -1,0 +1,33 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Cucumber_Test_Runner" type="TestNG">
+    <log_file alias="logs" path="$PROJECT_DIR$/logs/automation_framework.log" />
+    <module name="synopsis-home-ui-automation" />
+    <shortenClasspath name="NONE" />
+    <useClassPathOnly />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.vh.caramel.automation.runner.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="SUITE_NAME" value="" />
+    <option name="PACKAGE_NAME" value="com.vh.caramel.automation.runner" />
+    <option name="MAIN_CLASS_NAME" value="com.vh.caramel.automation.runner.TestRunner" />
+    <option name="GROUP_NAME" value="" />
+    <option name="TEST_OBJECT" value="CLASS" />
+    <option name="VM_PARAMETERS" value="-ea -Dio.netty.tryReflectionSetAccessible=true --add-opens java.base/jdk.internal.misc=ALL-UNNAMED" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="moduleWithDependencies" />
+    </option>
+    <option name="PROPERTIES_FILE" value="" />
+    <properties />
+    <listeners>
+      <listener class="com.vh.caramel.automation.utils.ListenerClass" />
+    </listeners>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
